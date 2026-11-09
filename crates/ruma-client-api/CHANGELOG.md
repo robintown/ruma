@@ -46,6 +46,7 @@ Improvements:
   used by implementations of earlier versions of MSC4195 moved to the deprecated
   `RtcTransport::LegacyLiveKit` variant, which holds a deprecated `LegacyLiveKitRtcTransport`.
   This type can hold either or both of `url` and `livekit_service_url`.
+- Add support for stable RTC transports discovery endpoint (`rtc::transports::v1`).
 
 [MSC4354]: https://github.com/matrix-org/matrix-spec-proposals/pull/4354
 [MSC4532]: https://github.com/matrix-org/matrix-spec-proposals/pull/4532
